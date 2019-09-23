@@ -35,6 +35,6 @@ public class PostServiceTest {
 
     @Test
     public void testEditPost() {
-        postService.editPost(1, Posts.createTestPost());
+        postService.editPost(TEST_ID, Posts.createTestPost());
     }
 }
